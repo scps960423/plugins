@@ -1,0 +1,25 @@
+{
+    "name": "Youtube",
+    "version": "1.0.0",
+    "description": "Youtube",
+    "main": "index.js",
+    "author": "Nara <scps960423@gmail.com>",
+    "license": "MIT",
+    "config": 
+    {
+        "serviceURL": "https://www.youtube.com",
+        "serviceName": "Youtube",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasIndirectMessages": true,
+        "hasTeamID": false,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": 
+        {
+            "disablewebsecurity": ""
+        },
+        "openDevTools": true
+    }
+}
