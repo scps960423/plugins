@@ -1,0 +1,25 @@
+{
+    "name": "Facebook",
+    "version": "1.0.0",
+    "description": "Facebook",
+    "main": "index.js",
+    "author": "Yitch <mr.yitch@gmail.com>",
+    "license": "MIT",
+    "config": 
+    {
+        "serviceURL": "https://www.facebook.com/login/",
+        "serviceName": "Facebook",
+        "message": "",
+        "popup": [],
+        "hasNotificationSound": true,
+        "hasIndirectMessages": true,
+        "hasTeamID": false,
+        "customURL": false,
+        "hostedOnly": false,
+        "webviewOptions": 
+        {
+            "disablewebsecurity": true
+        },
+        "openDevTools": true
+    }
+}
